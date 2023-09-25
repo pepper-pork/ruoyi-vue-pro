@@ -15,6 +15,8 @@
 * 启动文档：<https://doc.iocoder.cn/quick-start/>
 * 视频教程：<https://doc.iocoder.cn/video/>
 
+已支持 Spring Boot 3.X + JDK 17 版本，可见 [master-boot3](https://gitee.com/zhijiantianya/ruoyi-vue-pro/blob/master/README.md) 分支。
+
 ## 🐯 平台简介
 
 **芋道**，以开发者为中心，打造中国第一流的快速开发平台，全部开源，个人与企业可 100% 免费使用。
@@ -68,12 +70,12 @@
 
 |       | JDK 8 完整版                                                 | JDK 8 精简版                                                          | JDK 17 完整版                                                                  |
 |-------|-----------------------------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| 分支    | [`master`](https://gitee.com/zhijiantianya/ruoyi-vue-pro) | [`mini`](https://gitee.com/zhijiantianya/ruoyi-vue-pro/tree/mini/) | [`boot-dev`](https://gitee.com/zhijiantianya/ruoyi-vue-pro/tree/boot3-dev/) |
+| 分支    | [`master`](https://gitee.com/zhijiantianya/ruoyi-vue-pro) | [`mini`](https://gitee.com/zhijiantianya/ruoyi-vue-pro/tree/mini/) | [`master-boot3`](https://gitee.com/zhijiantianya/ruoyi-vue-pro/tree/master-boot3/) |
 | 说明    | 包括所有功能                                                    | 只保留核心功能                                                            | 适配 Spring Boot 3.X                                                          |
 | 系统功能  | √                                                         | √                                                                  | √                                                                           |
 | 基础设施  | √                                                         | √                                                                  | √                                                                           |
 | 会员中心  | √                                                         | √                                                                  | √                                                                           |
-| 工作流程  | √                                                         | x                                                                  | 适配中                                                                         |
+| 工作流程  | √                                                         | x                                                                  | √                                                                         |
 | 数据报表  | √                                                         | x                                                                  | 适配中                                                                         |
 | 商城系统  | √                                                         | x                                                                  | √                                                                           |
 | 微信公众号 | √                                                         | x                                                                  | √                                                                           |
@@ -254,9 +256,9 @@ _前端基于 crmeb uniapp 经过授权重构，优化代码实现，接入芋�
 
 | 框架                                                                                          | 说明               | 版本          | 学习指南                                                           |
 |---------------------------------------------------------------------------------------------|------------------|-------------|----------------------------------------------------------------|
-| [Spring Boot](https://spring.io/projects/spring-boot)                                       | 应用开发框架           | 2.7.14      | [文档](https://github.com/YunaiV/SpringBoot-Labs)                |
+| [Spring Boot](https://spring.io/projects/spring-boot)                                       | 应用开发框架           | 2.7.15      | [文档](https://github.com/YunaiV/SpringBoot-Labs)                |
 | [MySQL](https://www.mysql.com/cn/)                                                          | 数据库服务器           | 5.7 / 8.0+  |                                                                |
-| [Druid](https://github.com/alibaba/druid)                                                   | JDBC 连接池、监控组件    | 1.2.18      | [文档](http://www.iocoder.cn/Spring-Boot/datasource-pool/?yudao) |
+| [Druid](https://github.com/alibaba/druid)                                                   | JDBC 连接池、监控组件    | 1.2.19      | [文档](http://www.iocoder.cn/Spring-Boot/datasource-pool/?yudao) |
 | [MyBatis Plus](https://mp.baomidou.com/)                                                    | MyBatis 增强工具包    | 3.5.3.1     | [文档](http://www.iocoder.cn/Spring-Boot/MyBatis/?yudao)         |
 | [Dynamic Datasource](https://dynamic-datasource.com/)                                       | 动态数据源            | 3.6.1       | [文档](http://www.iocoder.cn/Spring-Boot/datasource-pool/?yudao) |
 | [Redis](https://redis.io/)                                                                  | key-value 数据库    | 5.0 / 6.0   |                                                                |
